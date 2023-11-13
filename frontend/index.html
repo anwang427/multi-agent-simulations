@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Marketplace</h1>
+    </header>
+    <section id="product-list">
+        <!-- Products will be loaded here -->
+    </section>
+
+    <!-- Product Detail Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="product-detail"></div>
+
+            <!-- Chat Interface Elements -->
+            <input type="text" id="openai-key" placeholder="Enter your OpenAI API Key">
+            <button id="talk-to-seller">Talk to Seller</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
